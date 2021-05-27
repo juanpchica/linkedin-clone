@@ -30,6 +30,11 @@ const Rightside = () => {
             </div>
           </li>
         </FeedList>
+
+        <Recommendation>
+          View all recommendations
+          <img src='/images/right-icon.svg' alt='' />
+        </Recommendation>
       </FollowCard>
     </Container>
   );
@@ -99,6 +104,13 @@ const Avatar = styled.div`
   width: 48px;
   height: 48px;
   margin-right: 8px;
+`;
+
+const Recommendation = styled.a`
+  color: #0a66c2;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
 `;
 
 export default Rightside;
